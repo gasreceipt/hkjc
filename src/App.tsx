@@ -56,7 +56,7 @@ const App = () => {
   }
 
   return (
-    <div className="flex min-h-screen w-full bg-zinc-950 text-white">
+    <div className="flex h-dvh w-full bg-zinc-950 text-white overflow-hidden">
       {/* Mobile Overlay */}
       {sidebarOpen && (
         <div
@@ -99,7 +99,7 @@ const App = () => {
         </header>
 
         {/* Scrollable Content */}
-        <div className="flex-1 overflow-y-auto scrollbar-hide">
+        <div className="flex-1 overflow-y-auto">
           <div className="mx-auto flex w-full max-w-[1600px] gap-8 p-4 lg:p-8">
             {/* Center Feed */}
             <div className="flex-1 min-w-0">
