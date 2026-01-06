@@ -1,0 +1,2598 @@
+[
+  {
+    "race_id": "2017-07-09_Sha Tin_1",
+    "date": "2017-07-09",
+    "venue": "Sha Tin",
+    "race_no": "1",
+    "course": "TURF - B+2 COURSE",
+    "going": "GOOD",
+    "distance": "1200",
+    "horses": [
+      {
+        "name": "FANTASTIC SHOW(A207)",
+        "number": "10.0",
+        "jockey": "J Moreira",
+        "trainer": "Y S Tsui",
+        "draw": "1.0",
+        "odds": "4.9",
+        "place": "1"
+      },
+      {
+        "name": "GALLANT RETURN(A308)",
+        "number": "4.0",
+        "jockey": "Z Purton",
+        "trainer": "D J Hall",
+        "draw": "6.0",
+        "odds": "19.0",
+        "place": "2"
+      },
+      {
+        "name": "BINGO(A301)",
+        "number": "8.0",
+        "jockey": "S Clipperton",
+        "trainer": "J Moore",
+        "draw": "3.0",
+        "odds": "7.2",
+        "place": "3"
+      },
+      {
+        "name": "STRATHSPEY(A271)",
+        "number": "12.0",
+        "jockey": "C Murray",
+        "trainer": "A T Millard",
+        "draw": "10.0",
+        "odds": "49.0",
+        "place": "4"
+      },
+      {
+        "name": "LUCKY MASTER(A200)",
+        "number": "1.0",
+        "jockey": "H N Wong",
+        "trainer": "R Gibson",
+        "draw": "7.0",
+        "odds": "1.5",
+        "place": "5"
+      },
+      {
+        "name": "LUCKY STRYKER(A283)",
+        "number": "11.0",
+        "jockey": "C Y Ho",
+        "trainer": "Y S Tsui",
+        "draw": "8.0",
+        "odds": "36.0",
+        "place": "6"
+      },
+      {
+        "name": "CHAPARRAL STAR(A220)",
+        "number": "9.0",
+        "jockey": "D Whyte",
+        "trainer": "C W Chang",
+        "draw": "11.0",
+        "odds": "7.0",
+        "place": "7"
+      }
+    ]
+  },
+  {
+    "race_id": "2017-07-09_Sha Tin_2",
+    "date": "2017-07-09",
+    "venue": "Sha Tin",
+    "race_no": "2",
+    "course": "TURF - B+2 COURSE",
+    "going": "GOOD",
+    "distance": "1400",
+    "horses": [
+      {
+        "name": "UNIQUE JOYFUL(S241)",
+        "number": "5.0",
+        "jockey": "H T Mo",
+        "trainer": "A Lee",
+        "draw": "14.0",
+        "odds": "4.7",
+        "place": "1"
+      },
+      {
+        "name": "HAPPY CENTURY(T042)",
+        "number": "13.0",
+        "jockey": "C Murray",
+        "trainer": "D Cruz",
+        "draw": "2.0",
+        "odds": "25.0",
+        "place": "2"
+      },
+      {
+        "name": "ACTUARIAT(V215)",
+        "number": "2.0",
+        "jockey": "N Callan",
+        "trainer": "P O'Sullivan",
+        "draw": "1.0",
+        "odds": "6.5",
+        "place": "3"
+      },
+      {
+        "name": "LAUGHING LORD(T071)",
+        "number": "10.0",
+        "jockey": "J Moreira",
+        "trainer": "C W Chang",
+        "draw": "12.0",
+        "odds": "11.0",
+        "place": "4"
+      },
+      {
+        "name": "YOURTHEWONFORME(T258)",
+        "number": "11.0",
+        "jockey": "U Rispoli",
+        "trainer": "T K Ng",
+        "draw": "7.0",
+        "odds": "4.2",
+        "place": "5"
+      },
+      {
+        "name": "WINNER ST PAUL'S(T027)",
+        "number": "12.0",
+        "jockey": "C Schofield",
+        "trainer": "C H Yip",
+        "draw": "8.0",
+        "odds": "10.0",
+        "place": "6"
+      },
+      {
+        "name": "BRIGHT STAR(N387)",
+        "number": "7.0",
+        "jockey": "O Doleuze",
+        "trainer": "T P Yung",
+        "draw": "4.0",
+        "odds": "11.0",
+        "place": "7"
+      },
+      {
+        "name": "WINNING BOY(N186)",
+        "number": "8.0",
+        "jockey": "M L Yeung",
+        "trainer": "R Gibson",
+        "draw": "5.0",
+        "odds": "25.0",
+        "place": "8"
+      },
+      {
+        "name": "PLAIN BLUE BANNER(S070)",
+        "number": "9.0",
+        "jockey": "D Whyte",
+        "trainer": "D E Ferraris",
+        "draw": "13.0",
+        "odds": "19.0",
+        "place": "9"
+      },
+      {
+        "name": "FANTASTICLIFE(S320)",
+        "number": "3.0",
+        "jockey": "B Prebble",
+        "trainer": "C Fownes",
+        "draw": "6.0",
+        "odds": "16.0",
+        "place": "10"
+      },
+      {
+        "name": "LUCKY SEBRING(V091)",
+        "number": "14.0",
+        "jockey": "H N Wong",
+        "trainer": "Y S Tsui",
+        "draw": "3.0",
+        "odds": "99.0",
+        "place": "11"
+      },
+      {
+        "name": "AH BO(P295)",
+        "number": "6.0",
+        "jockey": "K Teetan",
+        "trainer": "A T Millard",
+        "draw": "9.0",
+        "odds": "39.0",
+        "place": "12"
+      },
+      {
+        "name": "HALL OF FAME(V309)",
+        "number": "1.0",
+        "jockey": "S Clipperton",
+        "trainer": "J Moore",
+        "draw": "10.0",
+        "odds": "15.0",
+        "place": "13"
+      },
+      {
+        "name": "HASTILY FEET(T259)",
+        "number": "4.0",
+        "jockey": "A Sanna",
+        "trainer": "W Y So",
+        "draw": "11.0",
+        "odds": "20.0",
+        "place": "14"
+      }
+    ]
+  },
+  {
+    "race_id": "2017-07-09_Sha Tin_3",
+    "date": "2017-07-09",
+    "venue": "Sha Tin",
+    "race_no": "3",
+    "course": "TURF - B+2 COURSE",
+    "going": "GOOD",
+    "distance": "1400",
+    "horses": [
+      {
+        "name": "GREAT TREASURE(T380)",
+        "number": "10.0",
+        "jockey": "M L Yeung",
+        "trainer": "A Lee",
+        "draw": "3.0",
+        "odds": "7.1",
+        "place": "1"
+      },
+      {
+        "name": "EXPERTO CREDE(A110)",
+        "number": "3.0",
+        "jockey": "S Clipperton",
+        "trainer": "J Moore",
+        "draw": "8.0",
+        "odds": "6.2",
+        "place": "2"
+      },
+      {
+        "name": "JOLLY BOUNTIFUL(A266)",
+        "number": "2.0",
+        "jockey": "O Doleuze",
+        "trainer": "J Size",
+        "draw": "6.0",
+        "odds": "5.5",
+        "place": "3"
+      },
+      {
+        "name": "INDIGENOUS STAR(A081)",
+        "number": "11.0",
+        "jockey": "U Rispoli",
+        "trainer": "P F Yiu",
+        "draw": "5.0",
+        "odds": "23.0",
+        "place": "4"
+      },
+      {
+        "name": "TRIUMPHANT LIGHT(T224)",
+        "number": "9.0",
+        "jockey": "N Callan",
+        "trainer": "D E Ferraris",
+        "draw": "14.0",
+        "odds": "8.0",
+        "place": "5"
+      },
+      {
+        "name": "WUSHU CHAMPION(V301)",
+        "number": "1.0",
+        "jockey": "Z Purton",
+        "trainer": "R Gibson",
+        "draw": "13.0",
+        "odds": "18.0",
+        "place": "6"
+      },
+      {
+        "name": "LOOK ERAS(V123)",
+        "number": "4.0",
+        "jockey": "H T Mo",
+        "trainer": "Y S Tsui",
+        "draw": "9.0",
+        "odds": "6.2",
+        "place": "7"
+      },
+      {
+        "name": "TELECOM TITAN(A018)",
+        "number": "14.0",
+        "jockey": "K Teetan",
+        "trainer": "K W Lui",
+        "draw": "11.0",
+        "odds": "99.0",
+        "place": "8"
+      },
+      {
+        "name": "CORRE RAPIDO(A053)",
+        "number": "8.0",
+        "jockey": "C Y Ho",
+        "trainer": "C H Yip",
+        "draw": "4.0",
+        "odds": "99.0",
+        "place": "9"
+      },
+      {
+        "name": "VARA PEARL(S138)",
+        "number": "6.0",
+        "jockey": "C Murray",
+        "trainer": "A T Millard",
+        "draw": "12.0",
+        "odds": "61.0",
+        "place": "10"
+      },
+      {
+        "name": "MASSIVE POWER(T339)",
+        "number": "12.0",
+        "jockey": "D Whyte",
+        "trainer": "L Ho",
+        "draw": "2.0",
+        "odds": "37.0",
+        "place": "11"
+      },
+      {
+        "name": "CHIU CHOW KID(T412)",
+        "number": "7.0",
+        "jockey": "C Schofield",
+        "trainer": "T P Yung",
+        "draw": "10.0",
+        "odds": "66.0",
+        "place": "12"
+      },
+      {
+        "name": "COOL AND NEAT(V087)",
+        "number": "5.0",
+        "jockey": "J Moreira",
+        "trainer": "D J Hall",
+        "draw": "7.0",
+        "odds": "3.7",
+        "place": "13"
+      },
+      {
+        "name": "GREENERY FORTUNE(T332)",
+        "number": "13.0",
+        "jockey": "K C Ng",
+        "trainer": "D Cruz",
+        "draw": "1.0",
+        "odds": "99.0",
+        "place": "14"
+      }
+    ]
+  },
+  {
+    "race_id": "2017-07-09_Sha Tin_4",
+    "date": "2017-07-09",
+    "venue": "Sha Tin",
+    "race_no": "4",
+    "course": "ALL WEATHER TRACK",
+    "going": "GOOD",
+    "distance": "1200",
+    "horses": [
+      {
+        "name": "GIDDY GIDDY(S367)",
+        "number": "7.0",
+        "jockey": "H N Wong",
+        "trainer": "J Size",
+        "draw": "5.0",
+        "odds": "7.2",
+        "place": "1"
+      },
+      {
+        "name": "STAR SUPERIOR(V255)",
+        "number": "2.0",
+        "jockey": "H T Mo",
+        "trainer": "C W Chang",
+        "draw": "1.0",
+        "odds": "2.7",
+        "place": "2"
+      },
+      {
+        "name": "MASSIVE MILLENNIUM(T381)",
+        "number": "12.0",
+        "jockey": "K Teetan",
+        "trainer": "D E Ferraris",
+        "draw": "3.0",
+        "odds": "4.8",
+        "place": "3"
+      },
+      {
+        "name": "BOLSHOI BALLET(V226)",
+        "number": "9.0",
+        "jockey": "B Prebble",
+        "trainer": "D J Hall",
+        "draw": "10.0",
+        "odds": "22.0",
+        "place": "4"
+      },
+      {
+        "name": "STARTLING POWER(S204)",
+        "number": "5.0",
+        "jockey": "K K Chiong",
+        "trainer": "T K Ng",
+        "draw": "7.0",
+        "odds": "22.0",
+        "place": "5"
+      },
+      {
+        "name": "MASSIVE MOVE(T073)",
+        "number": "10.0",
+        "jockey": "C Schofield",
+        "trainer": "L Ho",
+        "draw": "12.0",
+        "odds": "9.8",
+        "place": "6"
+      },
+      {
+        "name": "RESPECT(T359)",
+        "number": "6.0",
+        "jockey": "S Clipperton",
+        "trainer": "J Moore",
+        "draw": "8.0",
+        "odds": "11.0",
+        "place": "7"
+      },
+      {
+        "name": "VICTORY FOLLOW ME(V182)",
+        "number": "11.0",
+        "jockey": "J Moreira",
+        "trainer": "C S Shum",
+        "draw": "6.0",
+        "odds": "9.6",
+        "place": "8"
+      },
+      {
+        "name": "LIGHTNING MISSILE(A281)",
+        "number": "4.0",
+        "jockey": "C Murray",
+        "trainer": "K L Man",
+        "draw": "9.0",
+        "odds": "99.0",
+        "place": "9"
+      },
+      {
+        "name": "HIGH ENERGY(A068)",
+        "number": "1.0",
+        "jockey": "O Doleuze",
+        "trainer": "P O'Sullivan",
+        "draw": "11.0",
+        "odds": "39.0",
+        "place": "10"
+      },
+      {
+        "name": "GOKO(A270)",
+        "number": "3.0",
+        "jockey": "D Whyte",
+        "trainer": "C H Yip",
+        "draw": "2.0",
+        "odds": "11.0",
+        "place": "11"
+      },
+      {
+        "name": "OHANA(A185)",
+        "number": "8.0",
+        "jockey": "K C Ng",
+        "trainer": "W Y So",
+        "draw": "4.0",
+        "odds": "99.0",
+        "place": "12"
+      }
+    ]
+  },
+  {
+    "race_id": "2017-07-09_Sha Tin_5",
+    "date": "2017-07-09",
+    "venue": "Sha Tin",
+    "race_no": "5",
+    "course": "TURF - B+2 COURSE",
+    "going": "GOOD",
+    "distance": "1000",
+    "horses": [
+      {
+        "name": "ENCORE BOY(A177)",
+        "number": "3.0",
+        "jockey": "Z Purton",
+        "trainer": "P F Yiu",
+        "draw": "7.0",
+        "odds": "2.6",
+        "place": "1"
+      },
+      {
+        "name": "HOT HOT PEPPER(V026)",
+        "number": "10.0",
+        "jockey": "M L Yeung",
+        "trainer": "P O'Sullivan",
+        "draw": "10.0",
+        "odds": "20.0",
+        "place": "2"
+      },
+      {
+        "name": "PEACE COMBINATION(T091)",
+        "number": "12.0",
+        "jockey": "J Moreira",
+        "trainer": "C Fownes",
+        "draw": "8.0",
+        "odds": "11.0",
+        "place": "3"
+      },
+      {
+        "name": "BEEKELY(A047)",
+        "number": "8.0",
+        "jockey": "D Whyte",
+        "trainer": "D J Hall",
+        "draw": "13.0",
+        "odds": "5.5",
+        "place": "4"
+      },
+      {
+        "name": "SUNSHINE UNIVERSE(A130)",
+        "number": "1.0",
+        "jockey": "O Doleuze",
+        "trainer": "C W Chang",
+        "draw": "11.0",
+        "odds": "7.5",
+        "place": "5"
+      },
+      {
+        "name": "BRAVE KNIGHT(T226)",
+        "number": "13.0",
+        "jockey": "C Murray",
+        "trainer": "L Ho",
+        "draw": "9.0",
+        "odds": "99.0",
+        "place": "6"
+      },
+      {
+        "name": "MORETHANLUCKY(A039)",
+        "number": "5.0",
+        "jockey": "N Callan",
+        "trainer": "T P Yung",
+        "draw": "3.0",
+        "odds": "12.0",
+        "place": "7"
+      },
+      {
+        "name": "ENCHANTED FEELING(V421)",
+        "number": "14.0",
+        "jockey": "K Teetan",
+        "trainer": "D E Ferraris",
+        "draw": "4.0",
+        "odds": "74.0",
+        "place": "8"
+      },
+      {
+        "name": "MAGICAL CHAMPION(A106)",
+        "number": "7.0",
+        "jockey": "K C Ng",
+        "trainer": "K L Man",
+        "draw": "12.0",
+        "odds": "99.0",
+        "place": "9"
+      },
+      {
+        "name": "TOURBILLON KING(A104)",
+        "number": "9.0",
+        "jockey": "H N Wong",
+        "trainer": "Y S Tsui",
+        "draw": "14.0",
+        "odds": "8.3",
+        "place": "10"
+      },
+      {
+        "name": "CREME BRULEE(A280)",
+        "number": "11.0",
+        "jockey": "U Rispoli",
+        "trainer": "C H Yip",
+        "draw": "2.0",
+        "odds": "99.0",
+        "place": "11"
+      },
+      {
+        "name": "FISH N' CHIPS(T099)",
+        "number": "6.0",
+        "jockey": "H T Mo",
+        "trainer": "A Lee",
+        "draw": "5.0",
+        "odds": "21.0",
+        "place": "12"
+      },
+      {
+        "name": "ZERO HEDGE(A221)",
+        "number": "2.0",
+        "jockey": "S Clipperton",
+        "trainer": "J Size",
+        "draw": "1.0",
+        "odds": "17.0",
+        "place": "13"
+      },
+      {
+        "name": "GALLANT ROCK(S240)",
+        "number": "4.0",
+        "jockey": "K K Chiong",
+        "trainer": "A T Millard",
+        "draw": "6.0",
+        "odds": "27.0",
+        "place": "14"
+      },
+      {
+        "name": "WINFULL PATROL(P063)",
+        "number": "",
+        "jockey": "C Y Ho",
+        "trainer": "R Gibson",
+        "draw": "",
+        "odds": "",
+        "place": "WV"
+      }
+    ]
+  },
+  {
+    "race_id": "2017-07-09_Sha Tin_6",
+    "date": "2017-07-09",
+    "venue": "Sha Tin",
+    "race_no": "6",
+    "course": "ALL WEATHER TRACK",
+    "going": "GOOD",
+    "distance": "1200",
+    "horses": [
+      {
+        "name": "SUNNY WIN(V254)",
+        "number": "6.0",
+        "jockey": "J Moreira",
+        "trainer": "L Ho",
+        "draw": "9.0",
+        "odds": "1.9",
+        "place": "1"
+      },
+      {
+        "name": "WAYFOONG VINNIE(V055)",
+        "number": "4.0",
+        "jockey": "B Prebble",
+        "trainer": "J Size",
+        "draw": "11.0",
+        "odds": "22.0",
+        "place": "2"
+      },
+      {
+        "name": "SUPER WISE(A100)",
+        "number": "3.0",
+        "jockey": "Z Purton",
+        "trainer": "C H Yip",
+        "draw": "10.0",
+        "odds": "6.1",
+        "place": "3"
+      },
+      {
+        "name": "KING MORTAR(A097)",
+        "number": "7.0",
+        "jockey": "H T Mo",
+        "trainer": "J Moore",
+        "draw": "2.0",
+        "odds": "9.3",
+        "place": "4"
+      },
+      {
+        "name": "SILLY BUDDIES(S054)",
+        "number": "11.0",
+        "jockey": "U Rispoli",
+        "trainer": "C W Chang",
+        "draw": "6.0",
+        "odds": "10.0",
+        "place": "5"
+      },
+      {
+        "name": "KHAKI(A294)",
+        "number": "2.0",
+        "jockey": "C Schofield",
+        "trainer": "T P Yung",
+        "draw": "4.0",
+        "odds": "5.7",
+        "place": "6"
+      },
+      {
+        "name": "E-SUPER(T010)",
+        "number": "5.0",
+        "jockey": "H N Wong",
+        "trainer": "K L Man",
+        "draw": "12.0",
+        "odds": "53.0",
+        "place": "7"
+      },
+      {
+        "name": "ELITE SPIRIT(S200)",
+        "number": "8.0",
+        "jockey": "C Murray",
+        "trainer": "D E Ferraris",
+        "draw": "3.0",
+        "odds": "17.0",
+        "place": "8"
+      },
+      {
+        "name": "URBAN CHIC(V404)",
+        "number": "10.0",
+        "jockey": "K C Ng",
+        "trainer": "A S Cruz",
+        "draw": "5.0",
+        "odds": "99.0",
+        "place": "9"
+      },
+      {
+        "name": "GOLDEN KID(V232)",
+        "number": "12.0",
+        "jockey": "M L Yeung",
+        "trainer": "T K Ng",
+        "draw": "1.0",
+        "odds": "99.0",
+        "place": "10"
+      },
+      {
+        "name": "OPEN HOUSE(A197)",
+        "number": "9.0",
+        "jockey": "C Y Ho",
+        "trainer": "D J Hall",
+        "draw": "7.0",
+        "odds": "99.0",
+        "place": "11"
+      },
+      {
+        "name": "ART OF RAW(V368)",
+        "number": "1.0",
+        "jockey": "K K Chiong",
+        "trainer": "K W Lui",
+        "draw": "8.0",
+        "odds": "99.0",
+        "place": "12"
+      }
+    ]
+  },
+  {
+    "race_id": "2017-07-09_Sha Tin_8",
+    "date": "2017-07-09",
+    "venue": "Sha Tin",
+    "race_no": "8",
+    "course": "ALL WEATHER TRACK",
+    "going": "GOOD",
+    "distance": "1200",
+    "horses": [
+      {
+        "name": "HARBOUR ALERT(T254)",
+        "number": "7.0",
+        "jockey": "N Callan",
+        "trainer": "P O'Sullivan",
+        "draw": "5.0",
+        "odds": "5.5",
+        "place": "1"
+      },
+      {
+        "name": "ARIZONA BLIZZARD(V264)",
+        "number": "6.0",
+        "jockey": "J Moreira",
+        "trainer": "J Size",
+        "draw": "9.0",
+        "odds": "4.8",
+        "place": "2"
+      },
+      {
+        "name": "PAKISTAN BABY(S442)",
+        "number": "9.0",
+        "jockey": "D Whyte",
+        "trainer": "A S Cruz",
+        "draw": "2.0",
+        "odds": "6.1",
+        "place": "3"
+      },
+      {
+        "name": "HAPPY HAPPY STAR(A011)",
+        "number": "12.0",
+        "jockey": "C Y Ho",
+        "trainer": "K L Man",
+        "draw": "10.0",
+        "odds": "21.0",
+        "place": "4"
+      },
+      {
+        "name": "HAPPY COOPERATION(T392)",
+        "number": "5.0",
+        "jockey": "Z Purton",
+        "trainer": "T P Yung",
+        "draw": "8.0",
+        "odds": "4.4",
+        "place": "5"
+      },
+      {
+        "name": "MOST BEAUTIFUL(A022)",
+        "number": "4.0",
+        "jockey": "H T Mo",
+        "trainer": "C S Shum",
+        "draw": "12.0",
+        "odds": "11.0",
+        "place": "6"
+      },
+      {
+        "name": "BORNTOACHIEVE(T313)",
+        "number": "3.0",
+        "jockey": "K K Chiong",
+        "trainer": "Y S Tsui",
+        "draw": "3.0",
+        "odds": "10.0",
+        "place": "7"
+      },
+      {
+        "name": "MR RIGHT(T334)",
+        "number": "8.0",
+        "jockey": "U Rispoli",
+        "trainer": "L Ho",
+        "draw": "6.0",
+        "odds": "14.0",
+        "place": "8"
+      },
+      {
+        "name": "GORGEOUS KING(V118)",
+        "number": "1.0",
+        "jockey": "A Sanna",
+        "trainer": "A T Millard",
+        "draw": "1.0",
+        "odds": "34.0",
+        "place": "9"
+      },
+      {
+        "name": "PERFECT CHOICE(A216)",
+        "number": "10.0",
+        "jockey": "B Prebble",
+        "trainer": "W Y So",
+        "draw": "7.0",
+        "odds": "99.0",
+        "place": "10"
+      },
+      {
+        "name": "HAPPY SURVEYS(T248)",
+        "number": "2.0",
+        "jockey": "C Murray",
+        "trainer": "D E Ferraris",
+        "draw": "4.0",
+        "odds": "45.0",
+        "place": "11"
+      },
+      {
+        "name": "GENEROUS HEART(V394)",
+        "number": "11.0",
+        "jockey": "H N Wong",
+        "trainer": "C H Yip",
+        "draw": "11.0",
+        "odds": "11.0",
+        "place": "12"
+      }
+    ]
+  },
+  {
+    "race_id": "2017-07-09_Sha Tin_9",
+    "date": "2017-07-09",
+    "venue": "Sha Tin",
+    "race_no": "9",
+    "course": "TURF - B+2 COURSE",
+    "going": "GOOD",
+    "distance": "2000",
+    "horses": [
+      {
+        "name": "GENERAL SHERMAN(V125)",
+        "number": "9.0",
+        "jockey": "B Prebble",
+        "trainer": "A S Cruz",
+        "draw": "4.0",
+        "odds": "16.0",
+        "place": "1"
+      },
+      {
+        "name": "ROCKETEER(A214)",
+        "number": "6.0",
+        "jockey": "D Whyte",
+        "trainer": "J Moore",
+        "draw": "3.0",
+        "odds": "3.3",
+        "place": "2"
+      },
+      {
+        "name": "HELENE CHARISMA(A129)",
+        "number": "1.0",
+        "jockey": "Z Purton",
+        "trainer": "J Moore",
+        "draw": "12.0",
+        "odds": "5.7",
+        "place": "3"
+      },
+      {
+        "name": "DOYENI(T114)",
+        "number": "4.0",
+        "jockey": "K Teetan",
+        "trainer": "A S Cruz",
+        "draw": "1.0",
+        "odds": "5.3",
+        "place": "4"
+      },
+      {
+        "name": "DINOZZO(V246)",
+        "number": "7.0",
+        "jockey": "J Moreira",
+        "trainer": "J Size",
+        "draw": "9.0",
+        "odds": "3.6",
+        "place": "5"
+      },
+      {
+        "name": "PRAWN BABA(A002)",
+        "number": "5.0",
+        "jockey": "S Clipperton",
+        "trainer": "J Size",
+        "draw": "6.0",
+        "odds": "13.0",
+        "place": "6"
+      },
+      {
+        "name": "GREEN DISPATCH(V184)",
+        "number": "13.0",
+        "jockey": "H T Mo",
+        "trainer": "C S Shum",
+        "draw": "11.0",
+        "odds": "16.0",
+        "place": "7"
+      },
+      {
+        "name": "RENAISSANCE ART(T197)",
+        "number": "10.0",
+        "jockey": "M L Yeung",
+        "trainer": "C Fownes",
+        "draw": "5.0",
+        "odds": "49.0",
+        "place": "8"
+      },
+      {
+        "name": "SUPREME PROFIT(P230)",
+        "number": "3.0",
+        "jockey": "H N Wong",
+        "trainer": "C S Shum",
+        "draw": "7.0",
+        "odds": "65.0",
+        "place": "9"
+      },
+      {
+        "name": "ANDOYAS(T109)",
+        "number": "12.0",
+        "jockey": "K C Ng",
+        "trainer": "D J Hall",
+        "draw": "10.0",
+        "odds": "99.0",
+        "place": "10"
+      },
+      {
+        "name": "HAPPILABABY(T315)",
+        "number": "11.0",
+        "jockey": "K K Chiong",
+        "trainer": "C S Shum",
+        "draw": "2.0",
+        "odds": "52.0",
+        "place": "11"
+      },
+      {
+        "name": "BASIC TRILOGY(V133)",
+        "number": "2.0",
+        "jockey": "C Y Ho",
+        "trainer": "J Moore",
+        "draw": "8.0",
+        "odds": "88.0",
+        "place": "12"
+      },
+      {
+        "name": "DYNAMISM(T188)",
+        "number": "8.0",
+        "jockey": "C Murray",
+        "trainer": "D E Ferraris",
+        "draw": "",
+        "odds": "",
+        "place": "WV"
+      }
+    ]
+  },
+  {
+    "race_id": "2017-07-09_Sha Tin_10",
+    "date": "2017-07-09",
+    "venue": "Sha Tin",
+    "race_no": "10",
+    "course": "TURF - B+2 COURSE",
+    "going": "GOOD",
+    "distance": "1400",
+    "horses": [
+      {
+        "name": "COBY BOY(A297)",
+        "number": "4.0",
+        "jockey": "M L Yeung",
+        "trainer": "T P Yung",
+        "draw": "6.0",
+        "odds": "98.0",
+        "place": "1"
+      },
+      {
+        "name": "LUCKY GUY(T349)",
+        "number": "6.0",
+        "jockey": "N Callan",
+        "trainer": "C H Yip",
+        "draw": "10.0",
+        "odds": "7.3",
+        "place": "2"
+      },
+      {
+        "name": "GRANITE BELT(A218)",
+        "number": "5.0",
+        "jockey": "B Prebble",
+        "trainer": "J Moore",
+        "draw": "7.0",
+        "odds": "9.3",
+        "place": "3"
+      },
+      {
+        "name": "REGENCY BO BO(A050)",
+        "number": "3.0",
+        "jockey": "Z Purton",
+        "trainer": "A S Cruz",
+        "draw": "5.0",
+        "odds": "2.3",
+        "place": "4"
+      },
+      {
+        "name": "DEJA VU(T376)",
+        "number": "12.0",
+        "jockey": "K C Ng",
+        "trainer": "A Lee",
+        "draw": "4.0",
+        "odds": "63.0",
+        "place": "5"
+      },
+      {
+        "name": "GIANT TURTLE(T391)",
+        "number": "10.0",
+        "jockey": "C Murray",
+        "trainer": "A T Millard",
+        "draw": "12.0",
+        "odds": "46.0",
+        "place": "6"
+      },
+      {
+        "name": "SIR REDALOT(A196)",
+        "number": "7.0",
+        "jockey": "J Moreira",
+        "trainer": "J Size",
+        "draw": "9.0",
+        "odds": "3.5",
+        "place": "7"
+      },
+      {
+        "name": "IRON BOY(V071)",
+        "number": "2.0",
+        "jockey": "D Whyte",
+        "trainer": "K W Lui",
+        "draw": "14.0",
+        "odds": "15.0",
+        "place": "8"
+      },
+      {
+        "name": "FLYING MONKEY(T361)",
+        "number": "14.0",
+        "jockey": "K Teetan",
+        "trainer": "W Y So",
+        "draw": "2.0",
+        "odds": "13.0",
+        "place": "9"
+      },
+      {
+        "name": "PRESIDENTPARAMOUNT(S420)",
+        "number": "8.0",
+        "jockey": "A Sanna",
+        "trainer": "C W Chang",
+        "draw": "13.0",
+        "odds": "23.0",
+        "place": "10"
+      },
+      {
+        "name": "STARLIT KNIGHT(A137)",
+        "number": "9.0",
+        "jockey": "H N Wong",
+        "trainer": "Y S Tsui",
+        "draw": "3.0",
+        "odds": "99.0",
+        "place": "11"
+      },
+      {
+        "name": "FAITHFUL TRINITY(A247)",
+        "number": "1.0",
+        "jockey": "U Rispoli",
+        "trainer": "D J Hall",
+        "draw": "1.0",
+        "odds": "55.0",
+        "place": "12"
+      },
+      {
+        "name": "MAGIC AGILITY(A233)",
+        "number": "11.0",
+        "jockey": "H T Mo",
+        "trainer": "L Ho",
+        "draw": "8.0",
+        "odds": "99.0",
+        "place": "13"
+      },
+      {
+        "name": "ALCAZAR(A131)",
+        "number": "13.0",
+        "jockey": "C Y Ho",
+        "trainer": "K L Man",
+        "draw": "11.0",
+        "odds": "99.0",
+        "place": "14"
+      },
+      {
+        "name": "RADIANT BUNNY(S418)",
+        "number": "",
+        "jockey": "N Callan",
+        "trainer": "C H Yip",
+        "draw": "",
+        "odds": "",
+        "place": "WV"
+      }
+    ]
+  },
+  {
+    "race_id": "2017-07-16_Sha Tin_1",
+    "date": "2017-07-16",
+    "venue": "Sha Tin",
+    "race_no": "1",
+    "course": "TURF - C COURSE",
+    "going": "GOOD",
+    "distance": "1200",
+    "horses": [
+      {
+        "name": "HAPPY FIERY DRAGON(V108)",
+        "number": "5.0",
+        "jockey": "A Sanna",
+        "trainer": "D Cruz",
+        "draw": "2.0",
+        "odds": "7.1",
+        "place": "1"
+      },
+      {
+        "name": "LE PEGASE(T280)",
+        "number": "12.0",
+        "jockey": "M L Yeung",
+        "trainer": "A Lee",
+        "draw": "10.0",
+        "odds": "51.0",
+        "place": "2"
+      },
+      {
+        "name": "STARRY STARLIES(T429)",
+        "number": "11.0",
+        "jockey": "W M Lai",
+        "trainer": "C W Chang",
+        "draw": "1.0",
+        "odds": "10.0",
+        "place": "3"
+      },
+      {
+        "name": "GAINFULJET(V283)",
+        "number": "4.0",
+        "jockey": "Z Purton",
+        "trainer": "T P Yung",
+        "draw": "12.0",
+        "odds": "16.0",
+        "place": "4"
+      },
+      {
+        "name": "FURIOUS PEGASUS(S441)",
+        "number": "10.0",
+        "jockey": "C Schofield",
+        "trainer": "T K Ng",
+        "draw": "6.0",
+        "odds": "10.0",
+        "place": "5"
+      },
+      {
+        "name": "HAYMAKER(T054)",
+        "number": "3.0",
+        "jockey": "K Teetan",
+        "trainer": "K W Lui",
+        "draw": "11.0",
+        "odds": "8.8",
+        "place": "6"
+      },
+      {
+        "name": "HAPPY GAINS(V252)",
+        "number": "7.0",
+        "jockey": "M F Poon",
+        "trainer": "D J Hall",
+        "draw": "4.0",
+        "odds": "3.3",
+        "place": "7"
+      },
+      {
+        "name": "ORIENTAL FANTASIA(P269)",
+        "number": "8.0",
+        "jockey": "H N Wong",
+        "trainer": "Y S Tsui",
+        "draw": "7.0",
+        "odds": "16.0",
+        "place": "8"
+      },
+      {
+        "name": "JIMSON THE FAMOUS(T253)",
+        "number": "1.0",
+        "jockey": "C Murray",
+        "trainer": "C H Yip",
+        "draw": "5.0",
+        "odds": "40.0",
+        "place": "9"
+      },
+      {
+        "name": "KWAICHUNG BROTHERS(A012)",
+        "number": "2.0",
+        "jockey": "J Moreira",
+        "trainer": "R Gibson",
+        "draw": "8.0",
+        "odds": "4.1",
+        "place": "10"
+      },
+      {
+        "name": "HURRICANE KID(T285)",
+        "number": "6.0",
+        "jockey": "N Callan",
+        "trainer": "P O'Sullivan",
+        "draw": "9.0",
+        "odds": "23.0",
+        "place": "11"
+      },
+      {
+        "name": "NATURAL TEAM(P257)",
+        "number": "9.0",
+        "jockey": "K C Ng",
+        "trainer": "K L Man",
+        "draw": "3.0",
+        "odds": "60.0",
+        "place": "12"
+      },
+      {
+        "name": "DYNAMIC VOYAGE(P066)",
+        "number": "",
+        "jockey": "---",
+        "trainer": "L Ho",
+        "draw": "",
+        "odds": "",
+        "place": "WV"
+      }
+    ]
+  },
+  {
+    "race_id": "2017-07-16_Sha Tin_2",
+    "date": "2017-07-16",
+    "venue": "Sha Tin",
+    "race_no": "2",
+    "course": "TURF - C COURSE",
+    "going": "GOOD",
+    "distance": "1800",
+    "horses": [
+      {
+        "name": "PROUD SKY(V406)",
+        "number": "5.0",
+        "jockey": "M L Yeung",
+        "trainer": "A Lee",
+        "draw": "4.0",
+        "odds": "24.0",
+        "place": "1"
+      },
+      {
+        "name": "JE PENSE(V354)",
+        "number": "3.0",
+        "jockey": "A Sanna",
+        "trainer": "C W Chang",
+        "draw": "12.0",
+        "odds": "10.0",
+        "place": "2"
+      },
+      {
+        "name": "BEST TANGO(S121)",
+        "number": "2.0",
+        "jockey": "M F Poon",
+        "trainer": "D J Hall",
+        "draw": "5.0",
+        "odds": "3.0",
+        "place": "3"
+      },
+      {
+        "name": "FORTUNE GIGGLES(S346)",
+        "number": "1.0",
+        "jockey": "B Prebble",
+        "trainer": "Y S Tsui",
+        "draw": "13.0",
+        "odds": "15.0",
+        "place": "4"
+      },
+      {
+        "name": "LUCKY SEBRING(V091)",
+        "number": "7.0",
+        "jockey": "H N Wong",
+        "trainer": "Y S Tsui",
+        "draw": "8.0",
+        "odds": "99.0",
+        "place": "5"
+      },
+      {
+        "name": "ATOMIC BLAST(T203)",
+        "number": "6.0",
+        "jockey": "C Schofield",
+        "trainer": "A T Millard",
+        "draw": "9.0",
+        "odds": "9.1",
+        "place": "6"
+      },
+      {
+        "name": "AMRITSARIA(V122)",
+        "number": "4.0",
+        "jockey": "S Clipperton",
+        "trainer": "P F Yiu",
+        "draw": "3.0",
+        "odds": "5.7",
+        "place": "7"
+      },
+      {
+        "name": "HIGH SPEED METRO(P293)",
+        "number": "11.0",
+        "jockey": "C Murray",
+        "trainer": "L Ho",
+        "draw": "7.0",
+        "odds": "11.0",
+        "place": "8"
+      },
+      {
+        "name": "SWEET BEAN(S205)",
+        "number": "8.0",
+        "jockey": "U Rispoli",
+        "trainer": "C Fownes",
+        "draw": "2.0",
+        "odds": "21.0",
+        "place": "9"
+      },
+      {
+        "name": "LIGHTNING AND GOLD(P354)",
+        "number": "9.0",
+        "jockey": "J Moreira",
+        "trainer": "C H Yip",
+        "draw": "11.0",
+        "odds": "4.8",
+        "place": "10"
+      },
+      {
+        "name": "PERFECT TIMING(T019)",
+        "number": "12.0",
+        "jockey": "K Teetan",
+        "trainer": "T P Yung",
+        "draw": "10.0",
+        "odds": "54.0",
+        "place": "11"
+      },
+      {
+        "name": "FLYING PROSPERITY(V159)",
+        "number": "10.0",
+        "jockey": "C Y Ho",
+        "trainer": "D E Ferraris",
+        "draw": "6.0",
+        "odds": "99.0",
+        "place": "12"
+      },
+      {
+        "name": "ABLE TALENT(S446)",
+        "number": "14.0",
+        "jockey": "W M Lai",
+        "trainer": "T K Ng",
+        "draw": "14.0",
+        "odds": "35.0",
+        "place": "13"
+      },
+      {
+        "name": "HALL OF FAME(V309)",
+        "number": "",
+        "jockey": "N Callan",
+        "trainer": "J Moore",
+        "draw": "",
+        "odds": "",
+        "place": "WV"
+      },
+      {
+        "name": "STORM KID(S338)",
+        "number": "13.0",
+        "jockey": "K C Ng",
+        "trainer": "D Cruz",
+        "draw": "",
+        "odds": "",
+        "place": "WX-A"
+      }
+    ]
+  },
+  {
+    "race_id": "2017-07-16_Sha Tin_3",
+    "date": "2017-07-16",
+    "venue": "Sha Tin",
+    "race_no": "3",
+    "course": "TURF - C COURSE",
+    "going": "GOOD",
+    "distance": "1200",
+    "horses": [
+      {
+        "name": "OUR FOLKS(P400)",
+        "number": "5.0",
+        "jockey": "M F Poon",
+        "trainer": "C W Chang",
+        "draw": "2.0",
+        "odds": "3.4",
+        "place": "1"
+      },
+      {
+        "name": "PHANTOM FALCON(A128)",
+        "number": "6.0",
+        "jockey": "M L Yeung",
+        "trainer": "L Ho",
+        "draw": "7.0",
+        "odds": "13.0",
+        "place": "2"
+      },
+      {
+        "name": "JOLLY BOUNTIFUL(A266)",
+        "number": "1.0",
+        "jockey": "J Moreira",
+        "trainer": "J Size",
+        "draw": "1.0",
+        "odds": "2.3",
+        "place": "3"
+      },
+      {
+        "name": "RICHCITY FORTUNE(V088)",
+        "number": "4.0",
+        "jockey": "B Prebble",
+        "trainer": "J Moore",
+        "draw": "3.0",
+        "odds": "14.0",
+        "place": "4"
+      },
+      {
+        "name": "SHOWING CHARACTER(T289)",
+        "number": "10.0",
+        "jockey": "U Rispoli",
+        "trainer": "D E Ferraris",
+        "draw": "5.0",
+        "odds": "9.2",
+        "place": "5"
+      },
+      {
+        "name": "MORDICUS(V130)",
+        "number": "2.0",
+        "jockey": "K K Chiong",
+        "trainer": "K W Lui",
+        "draw": "9.0",
+        "odds": "15.0",
+        "place": "6"
+      },
+      {
+        "name": "RUMINARE(V086)",
+        "number": "12.0",
+        "jockey": "H N Wong",
+        "trainer": "K L Man",
+        "draw": "10.0",
+        "odds": "17.0",
+        "place": "7"
+      },
+      {
+        "name": "SAVANNAH WIND(A307)",
+        "number": "7.0",
+        "jockey": "K Teetan",
+        "trainer": "C S Shum",
+        "draw": "4.0",
+        "odds": "63.0",
+        "place": "8"
+      },
+      {
+        "name": "MULTIMAX(T129)",
+        "number": "3.0",
+        "jockey": "K C Ng",
+        "trainer": "A S Cruz",
+        "draw": "8.0",
+        "odds": "17.0",
+        "place": "9"
+      },
+      {
+        "name": "GREAT TOPLIGHT(T031)",
+        "number": "11.0",
+        "jockey": "C Y Ho",
+        "trainer": "C Fownes",
+        "draw": "11.0",
+        "odds": "88.0",
+        "place": "10"
+      },
+      {
+        "name": "SO GENEROUS(V402)",
+        "number": "8.0",
+        "jockey": "A Sanna",
+        "trainer": "C H Yip",
+        "draw": "6.0",
+        "odds": "99.0",
+        "place": "11"
+      },
+      {
+        "name": "MY GIFT(V242)",
+        "number": "9.0",
+        "jockey": "C Murray",
+        "trainer": "P F Yiu",
+        "draw": "12.0",
+        "odds": "56.0",
+        "place": "12"
+      },
+      {
+        "name": "AIMING HIGH(V206)",
+        "number": "",
+        "jockey": "C Schofield",
+        "trainer": "T P Yung",
+        "draw": "",
+        "odds": "",
+        "place": "WV"
+      },
+      {
+        "name": "VERY RICH MAN(V286)",
+        "number": "",
+        "jockey": "W M Lai",
+        "trainer": "T K Ng",
+        "draw": "",
+        "odds": "",
+        "place": "WV"
+      }
+    ]
+  },
+  {
+    "race_id": "2017-07-16_Sha Tin_4",
+    "date": "2017-07-16",
+    "venue": "Sha Tin",
+    "race_no": "4",
+    "course": "TURF - C COURSE",
+    "going": "GOOD TO YIELDING",
+    "distance": "1400",
+    "horses": [
+      {
+        "name": "THE FULL BLOOM(V243)",
+        "number": "10.0",
+        "jockey": "D Whyte",
+        "trainer": "C H Yip",
+        "draw": "3.0",
+        "odds": "5.6",
+        "place": "1"
+      },
+      {
+        "name": "SILVERFIELD(S106)",
+        "number": "5.0",
+        "jockey": "C Schofield",
+        "trainer": "T K Ng",
+        "draw": "4.0",
+        "odds": "7.6",
+        "place": "2"
+      },
+      {
+        "name": "FIVE STARS AGENT(V001)",
+        "number": "12.0",
+        "jockey": "J Moreira",
+        "trainer": "J Size",
+        "draw": "5.0",
+        "odds": "3.7",
+        "place": "3"
+      },
+      {
+        "name": "WINGOLD(T202)",
+        "number": "14.0",
+        "jockey": "M L Yeung",
+        "trainer": "A Lee",
+        "draw": "1.0",
+        "odds": "8.4",
+        "place": "4"
+      },
+      {
+        "name": "RED ELYSEES(A005)",
+        "number": "4.0",
+        "jockey": "N Callan",
+        "trainer": "K L Man",
+        "draw": "13.0",
+        "odds": "17.0",
+        "place": "5"
+      },
+      {
+        "name": "SPRING WIN(V157)",
+        "number": "7.0",
+        "jockey": "K Teetan",
+        "trainer": "P F Yiu",
+        "draw": "2.0",
+        "odds": "7.6",
+        "place": "6"
+      },
+      {
+        "name": "SEE ME NOW(V171)",
+        "number": "6.0",
+        "jockey": "C Y Ho",
+        "trainer": "K W Lui",
+        "draw": "10.0",
+        "odds": "31.0",
+        "place": "7"
+      },
+      {
+        "name": "ASSOCIATION FANS(V207)",
+        "number": "1.0",
+        "jockey": "Z Purton",
+        "trainer": "C W Chang",
+        "draw": "8.0",
+        "odds": "13.0",
+        "place": "8"
+      },
+      {
+        "name": "SALSA BROTHERS(V022)",
+        "number": "11.0",
+        "jockey": "H N Wong",
+        "trainer": "C S Shum",
+        "draw": "12.0",
+        "odds": "24.0",
+        "place": "9"
+      },
+      {
+        "name": "VARA PEARL(S138)",
+        "number": "8.0",
+        "jockey": "C Murray",
+        "trainer": "A T Millard",
+        "draw": "6.0",
+        "odds": "18.0",
+        "place": "10"
+      },
+      {
+        "name": "NOBLE DE BOY(T373)",
+        "number": "2.0",
+        "jockey": "U Rispoli",
+        "trainer": "Y S Tsui",
+        "draw": "9.0",
+        "odds": "11.0",
+        "place": "11"
+      },
+      {
+        "name": "ROCK THE TREE(P272)",
+        "number": "13.0",
+        "jockey": "K C Ng",
+        "trainer": "D E Ferraris",
+        "draw": "14.0",
+        "odds": "99.0",
+        "place": "12"
+      },
+      {
+        "name": "APPLAUSE(A023)",
+        "number": "3.0",
+        "jockey": "A Sanna",
+        "trainer": "D Cruz",
+        "draw": "11.0",
+        "odds": "50.0",
+        "place": "13"
+      },
+      {
+        "name": "HAPPY HAPPY(A348)",
+        "number": "9.0",
+        "jockey": "B Prebble",
+        "trainer": "L Ho",
+        "draw": "7.0",
+        "odds": "71.0",
+        "place": "14"
+      },
+      {
+        "name": "SMART BOY(V076)",
+        "number": "",
+        "jockey": "Z Purton",
+        "trainer": "T P Yung",
+        "draw": "",
+        "odds": "",
+        "place": "WV"
+      }
+    ]
+  },
+  {
+    "race_id": "2017-07-16_Sha Tin_5",
+    "date": "2017-07-16",
+    "venue": "Sha Tin",
+    "race_no": "5",
+    "course": "TURF - C COURSE",
+    "going": "GOOD TO YIELDING",
+    "distance": "1800",
+    "horses": [
+      {
+        "name": "KING OF MONGOLIA(S414)",
+        "number": "3.0",
+        "jockey": "N Callan",
+        "trainer": "R Gibson",
+        "draw": "1.0",
+        "odds": "12.0",
+        "place": "1"
+      },
+      {
+        "name": "HIT A HOME RUN(N248)",
+        "number": "13.0",
+        "jockey": "M F Poon",
+        "trainer": "D J Hall",
+        "draw": "7.0",
+        "odds": "11.0",
+        "place": "2"
+      },
+      {
+        "name": "ASHKIYR(P151)",
+        "number": "7.0",
+        "jockey": "B Prebble",
+        "trainer": "J Moore",
+        "draw": "4.0",
+        "odds": "15.0",
+        "place": "3"
+      },
+      {
+        "name": "PO CHING TREASURE(S388)",
+        "number": "4.0",
+        "jockey": "U Rispoli",
+        "trainer": "C Fownes",
+        "draw": "13.0",
+        "odds": "13.0",
+        "place": "4"
+      },
+      {
+        "name": "AEROLUMINANCE(V213)",
+        "number": "11.0",
+        "jockey": "S Clipperton",
+        "trainer": "P O'Sullivan",
+        "draw": "11.0",
+        "odds": "6.1",
+        "place": "5"
+      },
+      {
+        "name": "KING BOUNTIFUL(T105)",
+        "number": "5.0",
+        "jockey": "J Moreira",
+        "trainer": "J Size",
+        "draw": "12.0",
+        "odds": "11.0",
+        "place": "6"
+      },
+      {
+        "name": "WIN FOR CHARITY(V244)",
+        "number": "10.0",
+        "jockey": "C Y Ho",
+        "trainer": "K W Lui",
+        "draw": "3.0",
+        "odds": "18.0",
+        "place": "7"
+      },
+      {
+        "name": "GARLIC YEAH(V039)",
+        "number": "8.0",
+        "jockey": "Z Purton",
+        "trainer": "C H Yip",
+        "draw": "2.0",
+        "odds": "3.0",
+        "place": "8"
+      },
+      {
+        "name": "HAPPY ROCKY(S147)",
+        "number": "2.0",
+        "jockey": "C Murray",
+        "trainer": "A Lee",
+        "draw": "5.0",
+        "odds": "42.0",
+        "place": "9"
+      },
+      {
+        "name": "BLAZING PASS(T108)",
+        "number": "6.0",
+        "jockey": "K Teetan",
+        "trainer": "A S Cruz",
+        "draw": "10.0",
+        "odds": "28.0",
+        "place": "10"
+      },
+      {
+        "name": "LUCKY SEVEN STARS(V263)",
+        "number": "14.0",
+        "jockey": "M L Yeung",
+        "trainer": "P F Yiu",
+        "draw": "9.0",
+        "odds": "18.0",
+        "place": "11"
+      },
+      {
+        "name": "SEMPITERNAL(S100)",
+        "number": "1.0",
+        "jockey": "A Sanna",
+        "trainer": "L Ho",
+        "draw": "14.0",
+        "odds": "82.0",
+        "place": "12"
+      },
+      {
+        "name": "COOL BROTHERS(V403)",
+        "number": "12.0",
+        "jockey": "W M Lai",
+        "trainer": "C W Chang",
+        "draw": "8.0",
+        "odds": "13.0",
+        "place": "13"
+      },
+      {
+        "name": "MIDNITE PROMISE(S379)",
+        "number": "9.0",
+        "jockey": "H N Wong",
+        "trainer": "T K Ng",
+        "draw": "6.0",
+        "odds": "15.0",
+        "place": "14"
+      }
+    ]
+  },
+  {
+    "race_id": "2017-07-16_Sha Tin_6",
+    "date": "2017-07-16",
+    "venue": "Sha Tin",
+    "race_no": "6",
+    "course": "TURF - C COURSE",
+    "going": "GOOD TO YIELDING",
+    "distance": "1400",
+    "horses": [
+      {
+        "name": "GENEROUS BOBO(S096)",
+        "number": "12.0",
+        "jockey": "K K Chiong",
+        "trainer": "C H Yip",
+        "draw": "2.0",
+        "odds": "17.0",
+        "place": "1"
+      },
+      {
+        "name": "GOOD FOR YOU(T265)",
+        "number": "6.0",
+        "jockey": "U Rispoli",
+        "trainer": "Y S Tsui",
+        "draw": "8.0",
+        "odds": "7.7",
+        "place": "2"
+      },
+      {
+        "name": "EXPERTO CREDE(A110)",
+        "number": "1.0",
+        "jockey": "S Clipperton",
+        "trainer": "J Moore",
+        "draw": "6.0",
+        "odds": "3.5",
+        "place": "3"
+      },
+      {
+        "name": "AUTOPAY(A027)",
+        "number": "11.0",
+        "jockey": "Z Purton",
+        "trainer": "C S Shum",
+        "draw": "9.0",
+        "odds": "4.1",
+        "place": "4"
+      },
+      {
+        "name": "DIAMOND MYSTERIOUS(S426)",
+        "number": "4.0",
+        "jockey": "C Schofield",
+        "trainer": "K W Lui",
+        "draw": "12.0",
+        "odds": "15.0",
+        "place": "5"
+      },
+      {
+        "name": "REMARKABLE(A222)",
+        "number": "9.0",
+        "jockey": "B Prebble",
+        "trainer": "J Size",
+        "draw": "3.0",
+        "odds": "41.0",
+        "place": "6"
+      },
+      {
+        "name": "MONEY WINNER(A055)",
+        "number": "8.0",
+        "jockey": "K Teetan",
+        "trainer": "T P Yung",
+        "draw": "4.0",
+        "odds": "15.0",
+        "place": "7"
+      },
+      {
+        "name": "JOLLY GAINS(A276)",
+        "number": "7.0",
+        "jockey": "D Whyte",
+        "trainer": "L Ho",
+        "draw": "10.0",
+        "odds": "13.0",
+        "place": "8"
+      },
+      {
+        "name": "SUPERIOR BOY(V102)",
+        "number": "10.0",
+        "jockey": "J Moreira",
+        "trainer": "C W Chang",
+        "draw": "7.0",
+        "odds": "4.8",
+        "place": "9"
+      },
+      {
+        "name": "CHARITY KINGDOM(S278)",
+        "number": "3.0",
+        "jockey": "H N Wong",
+        "trainer": "K L Man",
+        "draw": "13.0",
+        "odds": "93.0",
+        "place": "10"
+      },
+      {
+        "name": "UNLEASHED DRAGON(V205)",
+        "number": "14.0",
+        "jockey": "M L Yeung",
+        "trainer": "R Gibson",
+        "draw": "11.0",
+        "odds": "95.0",
+        "place": "11"
+      },
+      {
+        "name": "REAL DEAL(A153)",
+        "number": "13.0",
+        "jockey": "C Murray",
+        "trainer": "P F Yiu",
+        "draw": "14.0",
+        "odds": "96.0",
+        "place": "12"
+      },
+      {
+        "name": "ROYALE ELEGANCE(S098)",
+        "number": "5.0",
+        "jockey": "A Sanna",
+        "trainer": "T K Ng",
+        "draw": "5.0",
+        "odds": "35.0",
+        "place": "13"
+      },
+      {
+        "name": "HAPPY AND HEALTHY(T056)",
+        "number": "2.0",
+        "jockey": "M F Poon",
+        "trainer": "D J Hall",
+        "draw": "",
+        "odds": "",
+        "place": "WV-A"
+      }
+    ]
+  },
+  {
+    "race_id": "2017-07-16_Sha Tin_7",
+    "date": "2017-07-16",
+    "venue": "Sha Tin",
+    "race_no": "7",
+    "course": "TURF - C COURSE",
+    "going": "GOOD TO YIELDING",
+    "distance": "1600",
+    "horses": [
+      {
+        "name": "GREEN ENERGY(A095)",
+        "number": "10.0",
+        "jockey": "Z Purton",
+        "trainer": "L Ho",
+        "draw": "11.0",
+        "odds": "7.2",
+        "place": "1"
+      },
+      {
+        "name": "APOLLO'S CHOICE(S312)",
+        "number": "8.0",
+        "jockey": "M F Poon",
+        "trainer": "D J Hall",
+        "draw": "4.0",
+        "odds": "4.3",
+        "place": "2"
+      },
+      {
+        "name": "AMAZING AGILITY(V192)",
+        "number": "9.0",
+        "jockey": "K Teetan",
+        "trainer": "D E Ferraris",
+        "draw": "14.0",
+        "odds": "30.0",
+        "place": "3"
+      },
+      {
+        "name": "GONNA RUN(T094)",
+        "number": "5.0",
+        "jockey": "B Prebble",
+        "trainer": "C Fownes",
+        "draw": "9.0",
+        "odds": "16.0",
+        "place": "4"
+      },
+      {
+        "name": "SERGEANT TITANIUM(S332)",
+        "number": "2.0",
+        "jockey": "J Moreira",
+        "trainer": "J Size",
+        "draw": "1.0",
+        "odds": "11.0",
+        "place": "5"
+      },
+      {
+        "name": "FIRST FONTEIN(V361)",
+        "number": "14.0",
+        "jockey": "M L Yeung",
+        "trainer": "W Y So",
+        "draw": "5.0",
+        "odds": "30.0",
+        "place": "6"
+      },
+      {
+        "name": "SMILING CHARM(V321)",
+        "number": "11.0",
+        "jockey": "D Whyte",
+        "trainer": "C W Chang",
+        "draw": "8.0",
+        "odds": "8.4",
+        "place": "7"
+      },
+      {
+        "name": "DEJA VU(T376)",
+        "number": "7.0",
+        "jockey": "H N Wong",
+        "trainer": "A Lee",
+        "draw": "6.0",
+        "odds": "19.0",
+        "place": "8"
+      },
+      {
+        "name": "WINWIN RUBY(A120)",
+        "number": "6.0",
+        "jockey": "N Callan",
+        "trainer": "K L Man",
+        "draw": "3.0",
+        "odds": "4.7",
+        "place": "9"
+      },
+      {
+        "name": "WHOOP WHOOP(A096)",
+        "number": "13.0",
+        "jockey": "A Sanna",
+        "trainer": "C H Yip",
+        "draw": "2.0",
+        "odds": "38.0",
+        "place": "10"
+      },
+      {
+        "name": "UNICORN(T046)",
+        "number": "3.0",
+        "jockey": "K K Chiong",
+        "trainer": "C S Shum",
+        "draw": "7.0",
+        "odds": "23.0",
+        "place": "11"
+      },
+      {
+        "name": "GOLD LAND(A109)",
+        "number": "4.0",
+        "jockey": "C Y Ho",
+        "trainer": "A S Cruz",
+        "draw": "13.0",
+        "odds": "30.0",
+        "place": "12"
+      },
+      {
+        "name": "LET US WIN(V381)",
+        "number": "1.0",
+        "jockey": "S Clipperton",
+        "trainer": "J Moore",
+        "draw": "10.0",
+        "odds": "14.0",
+        "place": "13"
+      },
+      {
+        "name": "PRETTY BAUHINIA(A135)",
+        "number": "12.0",
+        "jockey": "U Rispoli",
+        "trainer": "Y S Tsui",
+        "draw": "12.0",
+        "odds": "12.0",
+        "place": "14"
+      },
+      {
+        "name": "ISHVARA(S015)",
+        "number": "",
+        "jockey": "C Murray",
+        "trainer": "T P Yung",
+        "draw": "",
+        "odds": "",
+        "place": "WV"
+      }
+    ]
+  },
+  {
+    "race_id": "2017-07-16_Sha Tin_8",
+    "date": "2017-07-16",
+    "venue": "Sha Tin",
+    "race_no": "8",
+    "course": "TURF - C COURSE",
+    "going": "GOOD TO YIELDING",
+    "distance": "1600",
+    "horses": [
+      {
+        "name": "TIME WARP(A066)",
+        "number": "6.0",
+        "jockey": "K C Ng",
+        "trainer": "A S Cruz",
+        "draw": "1.0",
+        "odds": "3.7",
+        "place": "1"
+      },
+      {
+        "name": "BOOMING DELIGHT(A113)",
+        "number": "3.0",
+        "jockey": "S Clipperton",
+        "trainer": "J Moore",
+        "draw": "8.0",
+        "odds": "3.6",
+        "place": "2"
+      },
+      {
+        "name": "BEAT THE CLOCK(V397)",
+        "number": "4.0",
+        "jockey": "J Moreira",
+        "trainer": "J Size",
+        "draw": "3.0",
+        "odds": "2.1",
+        "place": "3"
+      },
+      {
+        "name": "ROMANTIC TOUCH(S393)",
+        "number": "2.0",
+        "jockey": "D Whyte",
+        "trainer": "A S Cruz",
+        "draw": "5.0",
+        "odds": "17.0",
+        "place": "4"
+      },
+      {
+        "name": "KING GENKI(V181)",
+        "number": "7.0",
+        "jockey": "K Teetan",
+        "trainer": "A S Cruz",
+        "draw": "6.0",
+        "odds": "61.0",
+        "place": "5"
+      },
+      {
+        "name": "SUPREME PROFIT(P230)",
+        "number": "5.0",
+        "jockey": "M F Poon",
+        "trainer": "C S Shum",
+        "draw": "4.0",
+        "odds": "19.0",
+        "place": "6"
+      },
+      {
+        "name": "HORSE OF FORTUNE(T118)",
+        "number": "1.0",
+        "jockey": "C Murray",
+        "trainer": "A T Millard",
+        "draw": "7.0",
+        "odds": "22.0",
+        "place": "7"
+      },
+      {
+        "name": "ANTICIPATION(T198)",
+        "number": "8.0",
+        "jockey": "M L Yeung",
+        "trainer": "A S Cruz",
+        "draw": "2.0",
+        "odds": "32.0",
+        "place": "8"
+      }
+    ]
+  },
+  {
+    "race_id": "2017-07-16_Sha Tin_9",
+    "date": "2017-07-16",
+    "venue": "Sha Tin",
+    "race_no": "9",
+    "course": "TURF - C COURSE",
+    "going": "GOOD TO YIELDING",
+    "distance": "1400",
+    "horses": [
+      {
+        "name": "CALCULATION(A248)",
+        "number": "11.0",
+        "jockey": "J Moreira",
+        "trainer": "J Size",
+        "draw": "7.0",
+        "odds": "4.6",
+        "place": "1"
+      },
+      {
+        "name": "CHUNG WAH SPIRIT(A168)",
+        "number": "2.0",
+        "jockey": "Z Purton",
+        "trainer": "C H Yip",
+        "draw": "8.0",
+        "odds": "6.9",
+        "place": "2"
+      },
+      {
+        "name": "FANTASTIC KAKA(P363)",
+        "number": "4.0",
+        "jockey": "A Sanna",
+        "trainer": "L Ho",
+        "draw": "3.0",
+        "odds": "17.0",
+        "place": "3"
+      },
+      {
+        "name": "RIGHT HONOURABLE(A164)",
+        "number": "14.0",
+        "jockey": "M L Yeung",
+        "trainer": "R Gibson",
+        "draw": "6.0",
+        "odds": "49.0",
+        "place": "4"
+      },
+      {
+        "name": "QUICK RETURN(A286)",
+        "number": "10.0",
+        "jockey": "U Rispoli",
+        "trainer": "C S Shum",
+        "draw": "5.0",
+        "odds": "12.0",
+        "place": "5"
+      },
+      {
+        "name": "SUNNY WAY(V176)",
+        "number": "1.0",
+        "jockey": "S Clipperton",
+        "trainer": "J Moore",
+        "draw": "14.0",
+        "odds": "7.9",
+        "place": "6"
+      },
+      {
+        "name": "GOLDEN SLEEP(T117)",
+        "number": "9.0",
+        "jockey": "K K Chiong",
+        "trainer": "C H Yip",
+        "draw": "10.0",
+        "odds": "79.0",
+        "place": "7"
+      },
+      {
+        "name": "WORLD RECORD(V040)",
+        "number": "6.0",
+        "jockey": "C Murray",
+        "trainer": "A T Millard",
+        "draw": "4.0",
+        "odds": "8.4",
+        "place": "8"
+      },
+      {
+        "name": "INTREPIC(A139)",
+        "number": "7.0",
+        "jockey": "M F Poon",
+        "trainer": "D J Hall",
+        "draw": "2.0",
+        "odds": "4.0",
+        "place": "9"
+      },
+      {
+        "name": "HIGH AND MIGHTY(S362)",
+        "number": "12.0",
+        "jockey": "D Whyte",
+        "trainer": "W Y So",
+        "draw": "11.0",
+        "odds": "7.2",
+        "place": "10"
+      },
+      {
+        "name": "DOUBLE VALENTINE(A163)",
+        "number": "3.0",
+        "jockey": "B Prebble",
+        "trainer": "A S Cruz",
+        "draw": "13.0",
+        "odds": "41.0",
+        "place": "11"
+      },
+      {
+        "name": "THE JOY OF GIVING(A249)",
+        "number": "8.0",
+        "jockey": "W M Lai",
+        "trainer": "C W Chang",
+        "draw": "9.0",
+        "odds": "99.0",
+        "place": "12"
+      },
+      {
+        "name": "MIGHTY BOY(A352)",
+        "number": "5.0",
+        "jockey": "N Callan",
+        "trainer": "J Moore",
+        "draw": "1.0",
+        "odds": "41.0",
+        "place": "13"
+      },
+      {
+        "name": "WINSTON'S LAD(T348)",
+        "number": "",
+        "jockey": "N Callan",
+        "trainer": "K W Lui",
+        "draw": "",
+        "odds": "",
+        "place": "WV"
+      },
+      {
+        "name": "HEHA BOY(A232)",
+        "number": "13.0",
+        "jockey": "H N Wong",
+        "trainer": "Y S Tsui",
+        "draw": "12.0",
+        "odds": "99.0",
+        "place": "UR"
+      }
+    ]
+  },
+  {
+    "race_id": "2017-07-16_Sha Tin_10",
+    "date": "2017-07-16",
+    "venue": "Sha Tin",
+    "race_no": "10",
+    "course": "TURF - C COURSE",
+    "going": "GOOD TO YIELDING",
+    "distance": "1200",
+    "horses": [
+      {
+        "name": "IVICTORY(A257)",
+        "number": "7.0",
+        "jockey": "J Moreira",
+        "trainer": "J Size",
+        "draw": "8.0",
+        "odds": "2.5",
+        "place": "1"
+      },
+      {
+        "name": "FIFTY FIFTY(A287)",
+        "number": "5.0",
+        "jockey": "K Teetan",
+        "trainer": "L Ho",
+        "draw": "12.0",
+        "odds": "20.0",
+        "place": "2"
+      },
+      {
+        "name": "SO FAST(S419)",
+        "number": "4.0",
+        "jockey": "B Prebble",
+        "trainer": "W Y So",
+        "draw": "10.0",
+        "odds": "43.0",
+        "place": "3"
+      },
+      {
+        "name": "STARSHIP(V379)",
+        "number": "10.0",
+        "jockey": "Z Purton",
+        "trainer": "P O'Sullivan",
+        "draw": "11.0",
+        "odds": "10.0",
+        "place": "4"
+      },
+      {
+        "name": "TRAVEL DATUK(V235)",
+        "number": "9.0",
+        "jockey": "U Rispoli",
+        "trainer": "Y S Tsui",
+        "draw": "4.0",
+        "odds": "7.2",
+        "place": "5"
+      },
+      {
+        "name": "FIONESAY(V256)",
+        "number": "1.0",
+        "jockey": "N Callan",
+        "trainer": "A S Cruz",
+        "draw": "6.0",
+        "odds": "5.9",
+        "place": "6"
+      },
+      {
+        "name": "THOR THE GREATEST(P396)",
+        "number": "6.0",
+        "jockey": "C Murray",
+        "trainer": "T P Yung",
+        "draw": "2.0",
+        "odds": "16.0",
+        "place": "7"
+      },
+      {
+        "name": "ALL YOU NEED(A006)",
+        "number": "12.0",
+        "jockey": "C Schofield",
+        "trainer": "R Gibson",
+        "draw": "5.0",
+        "odds": "6.2",
+        "place": "8"
+      },
+      {
+        "name": "ALL BEST FRIENDS(A217)",
+        "number": "8.0",
+        "jockey": "H N Wong",
+        "trainer": "K L Man",
+        "draw": "7.0",
+        "odds": "53.0",
+        "place": "9"
+      },
+      {
+        "name": "SHANGHAI MASTER(A337)",
+        "number": "2.0",
+        "jockey": "K K Chiong",
+        "trainer": "K W Lui",
+        "draw": "3.0",
+        "odds": "35.0",
+        "place": "10"
+      },
+      {
+        "name": "HINYUEN SWIFTNESS(V250)",
+        "number": "11.0",
+        "jockey": "K C Ng",
+        "trainer": "C H Yip",
+        "draw": "9.0",
+        "odds": "43.0",
+        "place": "11"
+      },
+      {
+        "name": "GORGEOUS KING(V118)",
+        "number": "3.0",
+        "jockey": "A Sanna",
+        "trainer": "A T Millard",
+        "draw": "1.0",
+        "odds": "20.0",
+        "place": "12"
+      },
+      {
+        "name": "NUCLEAR POWER(A244)",
+        "number": "",
+        "jockey": "M F Poon",
+        "trainer": "D J Hall",
+        "draw": "",
+        "odds": "",
+        "place": "WV"
+      }
+    ]
+  },
+  {
+    "race_id": "2017-07-16_Sha Tin_11",
+    "date": "2017-07-16",
+    "venue": "Sha Tin",
+    "race_no": "11",
+    "course": "TURF - C COURSE",
+    "going": "GOOD TO YIELDING",
+    "distance": "1400",
+    "horses": [
+      {
+        "name": "SOLAR HEI HEI(T242)",
+        "number": "6.0",
+        "jockey": "M F Poon",
+        "trainer": "D J Hall",
+        "draw": "13.0",
+        "odds": "7.2",
+        "place": "1"
+      },
+      {
+        "name": "BABA MAMA(V214)",
+        "number": "14.0",
+        "jockey": "K Teetan",
+        "trainer": "L Ho",
+        "draw": "6.0",
+        "odds": "9.6",
+        "place": "2"
+      },
+      {
+        "name": "MONGOLIAN KING(A098)",
+        "number": "7.0",
+        "jockey": "U Rispoli",
+        "trainer": "Y S Tsui",
+        "draw": "2.0",
+        "odds": "4.0",
+        "place": "3"
+      },
+      {
+        "name": "HEALTHY JOYFUL(S358)",
+        "number": "10.0",
+        "jockey": "K K Chiong",
+        "trainer": "C S Shum",
+        "draw": "5.0",
+        "odds": "8.9",
+        "place": "4"
+      },
+      {
+        "name": "CIRCUIT HASSLER(A041)",
+        "number": "12.0",
+        "jockey": "C Y Ho",
+        "trainer": "A S Cruz",
+        "draw": "14.0",
+        "odds": "7.9",
+        "place": "5"
+      },
+      {
+        "name": "SICHUAN DAR(T375)",
+        "number": "3.0",
+        "jockey": "C Schofield",
+        "trainer": "A T Millard",
+        "draw": "8.0",
+        "odds": "13.0",
+        "place": "6"
+      },
+      {
+        "name": "DUKEDOM(V372)",
+        "number": "13.0",
+        "jockey": "D Whyte",
+        "trainer": "C H Yip",
+        "draw": "10.0",
+        "odds": "21.0",
+        "place": "7"
+      },
+      {
+        "name": "BIG BANG BONG(V186)",
+        "number": "2.0",
+        "jockey": "J Moreira",
+        "trainer": "J Size",
+        "draw": "3.0",
+        "odds": "4.7",
+        "place": "8"
+      },
+      {
+        "name": "TURF SPRINT(T396)",
+        "number": "11.0",
+        "jockey": "M L Yeung",
+        "trainer": "W Y So",
+        "draw": "12.0",
+        "odds": "34.0",
+        "place": "9"
+      },
+      {
+        "name": "BULB ELITE(A183)",
+        "number": "8.0",
+        "jockey": "K C Ng",
+        "trainer": "P O'Sullivan",
+        "draw": "11.0",
+        "odds": "99.0",
+        "place": "10"
+      },
+      {
+        "name": "DRAGON MASTER(V099)",
+        "number": "9.0",
+        "jockey": "W M Lai",
+        "trainer": "C W Chang",
+        "draw": "7.0",
+        "odds": "69.0",
+        "place": "11"
+      },
+      {
+        "name": "PIKACHU(S298)",
+        "number": "4.0",
+        "jockey": "C Murray",
+        "trainer": "D E Ferraris",
+        "draw": "1.0",
+        "odds": "18.0",
+        "place": "12"
+      },
+      {
+        "name": "MIDNIGHT RATTLER(T371)",
+        "number": "1.0",
+        "jockey": "S Clipperton",
+        "trainer": "J Moore",
+        "draw": "4.0",
+        "odds": "24.0",
+        "place": "13"
+      },
+      {
+        "name": "CHIMBORAA(V411)",
+        "number": "5.0",
+        "jockey": "A Sanna",
+        "trainer": "K W Lui",
+        "draw": "9.0",
+        "odds": "97.0",
+        "place": "14"
+      }
+    ]
+  }
+]
