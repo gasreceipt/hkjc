@@ -1,40 +1,16 @@
 import { useState, useEffect } from 'react';
-import {
-  CloudRain, Sun, Wind, ChevronDown, ChevronUp, Trophy, Zap,
-  BarChart2, Calendar, LayoutDashboard, Settings, Search, Bell, Menu
-} from 'lucide-react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { Search, Bell, Menu, X } from 'lucide-react';
 import racesData from './races.json';
-
-// Types derived from our JSON structure
-interface Horse {
-  name: string;
-  number: string;
-  jockey: string;
-  trainer: string;
-  draw: string;
-  odds: string;
-  place: string;
-  prevOdds?: string;
-}
-
-interface Race {
-  race_id: string;
-  date: string;
-  venue: string;
-  race_no: string;
-  course: string;
-  going: string;
-  distance: string;
-  horses: Horse[];
-}
+import Sidebar from './components/Layout/Sidebar';
+import RightPanel from './components/Layout/RightPanel';
+import RaceFeed from './components/Race/RaceFeed';
+import type { Race } from './types';
 
 const App = () => {
   const [selectedRaceId, setSelectedRaceId] = useState<string | null>(racesData[0]?.race_id || null);
   const [races, setRaces] = useState<Race[]>(racesData as Race[]);
-  const [activeTab, setActiveTab] = useState('runners');
   const [likedHorses, setLikedHorses] = useState<Set<string>>(new Set());
-  const [sidebarOpen, setSidebarOpen] = useState(true);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
 
   // Simulation of "Live Odds" updates
   useEffect(() => {
@@ -63,13 +39,11 @@ const App = () => {
 
     return () => clearInterval(interval);
   }, [selectedRaceId]);
-
   const toggleRace = (id: string) => {
     if (selectedRaceId === id) {
       setSelectedRaceId(null);
     } else {
       setSelectedRaceId(id);
-      setActiveTab('runners');
     }
   };
 
@@ -81,313 +55,87 @@ const App = () => {
     setLikedHorses(newLiked);
   }
 
-  const getWeatherIcon = (going: string) => {
-    const lower = going.toLowerCase();
-    if (lower.includes('good') || lower.includes('fast')) return <Sun size={14} className="text-orange" />;
-    if (lower.includes('wet') || lower.includes('rain') || lower.includes('yielding')) return <CloudRain size={14} className="text-primary" />;
-    return <Wind size={14} className="text-tertiary" />;
-  };
-
   return (
-    <div className="app-container">
-      {/* Sidebar Navigation */}
-      <aside className={`sidebar ${sidebarOpen ? 'open' : 'closed'}`}>
-        <div className="logo-area">
-          <div className="logo-icon"><Zap size={20} fill="currentColor" /></div>
-          {sidebarOpen && <span className="logo-text">HKJC<span className="text-highlight">Bot</span></span>}
-        </div>
+    <div className="flex min-h-screen w-full bg-zinc-950 text-white">
+      {/* Mobile Overlay */}
+      {sidebarOpen && (
+        <div
+          className="fixed inset-0 z-40 bg-black/60 backdrop-blur-sm lg:hidden"
+          onClick={() => setSidebarOpen(false)}
+        />
+      )}
 
-        <nav className="nav-menu">
-          <div className="nav-item active">
-            <LayoutDashboard size={20} />
-            {sidebarOpen && <span>Live Races</span>}
-          </div>
-          <div className="nav-item">
-            <BarChart2 size={20} />
-            {sidebarOpen && <span>Analysis</span>}
-          </div>
-          <div className="nav-item">
-            <Calendar size={20} />
-            {sidebarOpen && <span>Schedule</span>}
-          </div>
-          <div className="nav-item">
-            <Settings size={20} />
-            {sidebarOpen && <span>Settings</span>}
-          </div>
-        </nav>
+      {/* Sidebar */}
+      <Sidebar isOpen={sidebarOpen} />
 
-        <div className="user-profile">
-          <div className="avatar">MW</div>
-          {sidebarOpen && (
-            <div className="user-info">
-              <div className="user-name">Max W.</div>
-              <div className="user-role">Pro Member</div>
-            </div>
-          )}
-        </div>
-      </aside>
-
-      {/* Main Content Area */}
-      <div className="main-content">
-        {/* Top Header */}
-        <header className="top-header">
+      {/* Main Content */}
+      <main className="flex flex-1 flex-col overflow-hidden">
+        {/* Header */}
+        <header className="sticky top-0 z-30 flex h-16 items-center justify-between border-b border-zinc-800 bg-zinc-950/80 px-4 backdrop-blur-xl lg:px-8">
           <div className="flex items-center gap-4">
-            <button className="icon-btn" onClick={() => setSidebarOpen(!sidebarOpen)}>
-              <Menu size={20} />
+            <button
+              onClick={() => setSidebarOpen(!sidebarOpen)}
+              className="rounded-lg p-2 text-zinc-400 hover:bg-zinc-800 hover:text-white lg:hidden"
+            >
+              {sidebarOpen ? <X size={20} /> : <Menu size={20} />}
             </button>
-            <h2 className="page-title">Today's Races</h2>
+            <h2 className="text-xl font-bold tracking-tight text-white">Today's Races</h2>
           </div>
 
-          <div className="header-actions">
-            <div className="search-bar">
-              <Search size={16} className="text-tertiary" />
-              <input type="text" placeholder="Search horses, jockeys..." />
+          <div className="flex items-center gap-4">
+            <div className="hidden items-center gap-2 rounded-full border border-zinc-800 bg-zinc-900 px-3 py-1.5 focus-within:border-zinc-700 sm:flex">
+              <Search size={14} className="text-zinc-500" />
+              <input
+                type="text"
+                placeholder="Search..."
+                className="w-32 bg-transparent text-sm text-white placeholder-zinc-500 outline-none focus:w-48 transition-all"
+              />
             </div>
-            <button className="icon-btn relative">
+            <button className="relative rounded-lg p-2 text-zinc-400 hover:bg-zinc-800 hover:text-white">
               <Bell size={20} />
-              <span className="notification-dot"></span>
+              <span className="absolute right-2 top-2 h-2 w-2 rounded-full bg-red-500 ring-2 ring-zinc-950"></span>
             </button>
           </div>
         </header>
 
-        {/* Scrollable Feed */}
-        <div className="content-scroll">
-          <div className="content-cols">
-
-            {/* Center: Race Feed */}
-            <div className="feed-column">
-              {/* Stats / Hero Section */}
-              <div className="stats-grid mb-6">
-                <div className="stat-card">
-                  <div className="stat-label">Next Race</div>
-                  <div className="stat-value text-green">R2 Sha Tin</div>
-                  <div className="stat-sub">Starting in 12m</div>
+        {/* Scrollable Content */}
+        <div className="flex-1 overflow-y-auto scrollbar-hide">
+          <div className="mx-auto flex w-full max-w-[1600px] gap-8 p-4 lg:p-8">
+            {/* Center Feed */}
+            <div className="flex-1 min-w-0">
+              {/* Stats Hero */}
+              <div className="mb-8 grid grid-cols-1 gap-4 sm:grid-cols-3">
+                <div className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-5 backdrop-blur-sm">
+                  <div className="mb-2 text-xs font-bold uppercase tracking-wider text-zinc-500">Next Race</div>
+                  <div className="text-2xl font-bold text-green-500">R2 Sha Tin</div>
+                  <div className="text-xs text-zinc-400 font-mono mt-1">Starting in 12m</div>
                 </div>
-                <div className="stat-card">
-                  <div className="stat-label">Active Pools</div>
-                  <div className="stat-value">$12.5M</div>
-                  <div className="stat-sub text-green">+4.2% vs avg</div>
+                <div className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-5 backdrop-blur-sm">
+                  <div className="mb-2 text-xs font-bold uppercase tracking-wider text-zinc-500">Active Pools</div>
+                  <div className="text-2xl font-bold text-white">$12.5M</div>
+                  <div className="text-xs text-green-500 font-mono mt-1">+4.2% vs avg</div>
                 </div>
-                <div className="stat-card">
-                  <div className="stat-label">Bot Accuracy</div>
-                  <div className="stat-value text-orange">76%</div>
-                  <div className="stat-sub">Last 50 races</div>
+                <div className="rounded-xl border border-zinc-800 bg-zinc-900/50 p-5 backdrop-blur-sm">
+                  <div className="mb-2 text-xs font-bold uppercase tracking-wider text-zinc-500">Bot Accuracy</div>
+                  <div className="text-2xl font-bold text-orange-500">76%</div>
+                  <div className="text-xs text-zinc-400 font-mono mt-1">Last 50 races</div>
                 </div>
               </div>
 
-              <div className="section-title">Live Race Feed</div>
-
-              {/* Race Cards */}
-              <div className="races-list flex flex-col gap-4">
-                {races.map((race) => {
-                  const isExpanded = selectedRaceId === race.race_id;
-                  const isTurf = race.course.toLowerCase().includes('turf');
-                  const sortedHorses = [...race.horses].sort((a, b) => parseFloat(a.odds) - parseFloat(b.odds));
-                  const topPick = sortedHorses[0];
-                  const valuePick = sortedHorses[2];
-
-                  return (
-                    <motion.div
-                      key={race.race_id}
-                      className={`race-card ${isExpanded ? 'active' : ''}`}
-                      initial={{ opacity: 0, y: 10 }}
-                      animate={{ opacity: 1, y: 0 }}
-                      transition={{ duration: 0.4 }}
-                    >
-                      {/* Race Header */}
-                      <div
-                        className="race-header"
-                        onClick={() => toggleRace(race.race_id)}
-                      >
-                        <div className="flex items-center gap-4">
-                          <div className="race-number-box">
-                            <span className="race-label">R{race.race_no}</span>
-                            <span className="race-time">Live</span>
-                          </div>
-                          <div>
-                            <div className="flex items-center gap-3 mb-1">
-                              <h3 className="text-lg font-bold text-white">{race.venue}</h3>
-                              <div className={`badge ${isTurf ? 'badge-turf' : 'badge-dirt'}`}>
-                                {isTurf ? 'TURF' : 'DIRT'}
-                              </div>
-                            </div>
-                            <div className="flex items-center gap-3 text-secondary text-sm">
-                              <span>{race.distance}m</span>
-                              <span className="divider">•</span>
-                              <div className="flex items-center gap-1">
-                                {getWeatherIcon(race.going)}
-                                <span>{race.going}</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div className="flex items-center gap-4">
-                          {!isExpanded && (
-                            <div className="preview-prediction">
-                              <Trophy size={14} className="text-green" />
-                              <span>Pick: <span className="text-white font-bold">{topPick?.name.split('(')[0]}</span></span>
-                            </div>
-                          )}
-                          {isExpanded ? <ChevronUp size={20} className="text-tertiary" /> : <ChevronDown size={20} className="text-tertiary" />}
-                        </div>
-                      </div>
-
-                      {/* Collapsible Content */}
-                      <AnimatePresence>
-                        {isExpanded && (
-                          <motion.div
-                            initial={{ height: 0, opacity: 0 }}
-                            animate={{ height: 'auto', opacity: 1 }}
-                            exit={{ height: 0, opacity: 0 }}
-                            transition={{ duration: 0.3 }}
-                          >
-                            <div className="race-content">
-                              <div className="tabs">
-                                <button className={`tab-btn ${activeTab === 'runners' ? 'active' : ''}`} onClick={() => setActiveTab('runners')}>Runners</button>
-                                <button className={`tab-btn ${activeTab === 'analysis' ? 'active' : ''}`} onClick={() => setActiveTab('analysis')}>Analysis</button>
-                                <button className={`tab-btn ${activeTab === 'stats' ? 'active' : ''}`} onClick={() => setActiveTab('stats')}>Pool Stats</button>
-                              </div>
-
-                              {activeTab === 'analysis' && (
-                                <div className="analysis-grid p-6">
-                                  <div className="prediction-box main-pick">
-                                    <div className="box-header">
-                                      <div className="flex items-center gap-2">
-                                        <Trophy size={18} className="text-green" />
-                                        <span className="label">Bot Top Pick</span>
-                                      </div>
-                                      <span className="confidence text-green">87% Confidence</span>
-                                    </div>
-                                    <div className="horse-name-lg">{topPick?.name.split('(')[0]}</div>
-                                    <p className="analysis-text">
-                                      Dominant recent form. The barrier draw of {topPick?.draw} is ideal for this {race.distance}m start.
-                                      Speed map suggests clear running.
-                                    </p>
-                                  </div>
-
-                                  <div className="prediction-box value-pick">
-                                    <div className="box-header">
-                                      <div className="flex items-center gap-2">
-                                        <Zap size={18} className="text-orange" />
-                                        <span className="label">Value Play</span>
-                                      </div>
-                                      <span className="odds-lg">{valuePick?.odds}</span>
-                                    </div>
-                                    <div className="horse-name-lg">{valuePick?.name.split('(')[0]}</div>
-                                    <p className="analysis-text">
-                                      Overpriced for current condition. Watch for late market moves.
-                                    </p>
-                                  </div>
-                                </div>
-                              )}
-
-                              {activeTab === 'runners' && (
-                                <div className="runners-table">
-                                  <div className="table-header">
-                                    <div className="col-cloth">No.</div>
-                                    <div className="col-horse">Horse Details</div>
-                                    <div className="col-draw">Draw</div>
-                                    <div className="col-odds">Win Odds</div>
-                                  </div>
-
-                                  {race.horses.map((horse) => {
-                                    const isLiked = likedHorses.has(horse.name);
-                                    const isFav = horse === topPick;
-                                    const prev = parseFloat(horse.prevOdds || horse.odds);
-                                    const curr = parseFloat(horse.odds);
-                                    let oddsClass = 'odds-tag';
-                                    if (isFav) oddsClass += ' fav';
-                                    else if (curr > prev) oddsClass += ' drift';
-                                    else if (curr < prev) oddsClass += ' shorten';
-
-                                    return (
-                                      <div key={horse.number} className="table-row" onClick={(e) => toggleLike(e, horse.name)}>
-                                        <div className="col-cloth">
-                                          <span className="cloth-badge">{parseInt(horse.number)}</span>
-                                        </div>
-                                        <div className="col-horse">
-                                          <div className="flex items-center gap-2">
-                                            <span className="horse-name">{horse.name.split('(')[0]}</span>
-                                            {isLiked && <Zap size={14} className="text-orange fill-current" />}
-                                          </div>
-                                          <div className="sub-info">
-                                            J: {horse.jockey} <span className="divider">•</span> T: {horse.trainer}
-                                          </div>
-                                        </div>
-                                        <div className="col-draw text-secondary font-mono">{horse.draw}</div>
-                                        <div className="col-odds">
-                                          <div className={oddsClass}>{horse.odds}</div>
-                                        </div>
-                                      </div>
-                                    );
-                                  })}
-                                </div>
-                              )}
-
-                              {activeTab === 'stats' && (
-                                <div className="p-12 flex flex-col items-center justify-center text-secondary">
-                                  <BarChart2 size={64} strokeWidth={1} className="mb-4 opacity-20" />
-                                  <p>Live pool data visualization requires a premium data subscription.</p>
-                                </div>
-                              )}
-                            </div>
-                          </motion.div>
-                        )}
-                      </AnimatePresence>
-                    </motion.div>
-                  );
-                })}
-              </div>
+              <RaceFeed
+                races={races}
+                selectedRaceId={selectedRaceId}
+                onToggleRace={toggleRace}
+                likedHorses={likedHorses}
+                onToggleLike={toggleLike}
+              />
             </div>
 
-            {/* Right: Widgets Column */}
-            <div className="widget-column">
-              <div className="widget-card">
-                <div className="widget-header">
-                  <h3>Market Movers</h3>
-                  <BarChart2 size={16} className="text-secondary" />
-                </div>
-                <div className="mover-item">
-                  <div className="flex flex-col">
-                    <span className="font-bold text-sm">Vital Spark</span>
-                    <span className="text-xs text-secondary">R6 Sha Tin</span>
-                  </div>
-                  <div className="text-right">
-                    <div className="text-green font-mono font-bold">4.2</div>
-                    <div className="text-xs text-green line-through">6.5</div>
-                  </div>
-                </div>
-                <div className="mover-item">
-                  <div className="flex flex-col">
-                    <span className="font-bold text-sm">Lucky Star</span>
-                    <span className="text-xs text-secondary">R8 Sha Tin</span>
-                  </div>
-                  <div className="text-right">
-                    <div className="text-red font-mono font-bold">12.0</div>
-                    <div className="text-xs text-red">8.0</div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="widget-card">
-                <div className="widget-header">
-                  <h3>Upcoming</h3>
-                  <Calendar size={16} className="text-secondary" />
-                </div>
-                <div className="schedule-item">
-                  <span className="text-sm font-bold">Happy Valley</span>
-                  <span className="text-xs text-secondary">Tomorrow, 19:30</span>
-                </div>
-                <div className="schedule-item">
-                  <span className="text-sm font-bold">Sha Tin</span>
-                  <span className="text-xs text-secondary">Sat, 13:00</span>
-                </div>
-              </div>
-            </div>
+            {/* Right Panel */}
+            <RightPanel />
           </div>
         </div>
-      </div>
+      </main>
     </div>
   );
 };
